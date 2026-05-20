@@ -1,0 +1,6 @@
+framework module AMRNetworkSDK {
+  umbrella header "AMRNetworkSDK.h"
+  export *
+
+  module * { export * }
+}

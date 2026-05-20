@@ -42,3 +42,6 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Build artifacts (xcframework.zip is uploaded as GitHub release asset, not committed)
+AMRNetworkSDK/Libs/AMRNetworkSDK.xcframework.zip
