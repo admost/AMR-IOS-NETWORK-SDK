@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.5.91")
+        .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.5.92")
     ],
     targets: [
         .target(
@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AMRNetworkSDKLib",
-            url: "https://github.com/admost/AMR-IOS-NETWORK-SDK/releases/download/1.0.0/AMRNetworkSDK.xcframework.zip",
-            checksum: "393fd6fca537f6c01f4b06e890e7a31e87f598be3ced4671eeddfeb4f50ea375"
+            url: "https://github.com/admost/AMR-IOS-NETWORK-SDK/releases/download/1.0.1/AMRNetworkSDK.xcframework.zip",
+            checksum: "fe0ddfa95cbb1d9b31285f3348793cbbdf6ccf6339ce5ab2e74faab1af03bc14"
         )
     ]
 )

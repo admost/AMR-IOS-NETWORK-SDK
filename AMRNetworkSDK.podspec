@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRNetworkSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage         = 'http://www.admost.com/'
   s.author           = { 'Admost Mediation Limited' => 'amr@admost.com' }
@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphoneos*]' => 'arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
-  s.dependency 'AMRSDK', '~> 1.5.91'
+  s.dependency 'AMRSDK', '~> 1.5.92'
 end
