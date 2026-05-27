@@ -45,3 +45,4 @@ fastlane/test_output
 
 # Build artifacts (xcframework.zip is uploaded as GitHub release asset, not committed)
 AMRNetworkSDK/Libs/AMRNetworkSDK.xcframework.zip
+.DS_Store
